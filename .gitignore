@@ -1,0 +1,31 @@
+# Secrets
+.env
+*.pem
+*.key
+credentials*.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Build artifacts
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+
+# Data provided by the user (see "Project Initialization")
+input/*
+!input/README.md
+!input/.gitkeep
+
+# 分析結果 (実データを分析した報告を誤ってコミットしない)
+*_構造分析_*.txt
+*_構造分析_*.docx
+ファイル間対応_*
